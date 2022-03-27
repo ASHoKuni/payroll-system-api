@@ -1,0 +1,22 @@
+[
+    {
+      "_class": "com.payroll.workingDay.dto.WorkingDays",
+      "id" : 1,
+      "empId": "1",
+      "workingDay":"22",
+      "leavesDay":"8",
+      "workingdate" : "2022-03"
+    
+
+    },
+    {
+        "_class": "com.payroll.workingDay.dto.WorkingDays",
+        "id" : 2,
+        "empId": "2",
+        "workingDay":"22",
+        "leavesDay":"8",
+        "workingdate" : "2022-03"
+      
+  
+      }
+  ]

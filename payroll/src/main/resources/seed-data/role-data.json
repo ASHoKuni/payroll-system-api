@@ -1,0 +1,12 @@
+[
+    {
+      "_class": "com.payroll.login.dto.Role",
+      "id" : 1,
+      "roleName": "Admin"
+    },
+    {
+      "_class": "com.payroll.login.dto.Role",
+      "id" : 2,
+      "roleName": "HR Head"
+    }
+  ]

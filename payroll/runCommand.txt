@@ -1,0 +1,5 @@
+
+step 1) run payroll hrms spring project using belwo command.
+	mvn clean package -DskipTests
+step 2) run belos command to run
+java -jar ./target/hrms-0.0.1-SNAPSHOT.jar

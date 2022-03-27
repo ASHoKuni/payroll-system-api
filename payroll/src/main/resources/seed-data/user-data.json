@@ -1,0 +1,34 @@
+[
+    {
+        "_class": "com.payroll.login.dto.User",     
+        "id" : 1,
+        "role" : 1,
+        "email" : "admin@payroll.com",
+        "firstName" : "System",
+        "lastName" : "Administrator",
+        "password" : "$2y$10$QPO2gkK9qVQlH4pWpgQyyex.HTizswcaYkEAgNrzM1fE4/m58PmgW",
+        "contactNo" : "2342335344",
+        "countryCode" : "+91",
+        "status" : "Y",
+        "note" : "Admin User",
+        "userName":"admin",
+        "middleName":"admin"
+    },
+    {
+        "_class": "com.payroll.login.dto.User",     
+        "id" : 2,
+        "role" : 2,
+        "email" : "hr@payroll.com",
+        "firstName" : "ashok",
+        "lastName" : "dhokare",
+        "password" : "$2y$10$QPO2gkK9qVQlH4pWpgQyyex.HTizswcaYkEAgNrzM1fE4/m58PmgW",
+        "contactNo" : "2342335344",
+        "countryCode" : "+91",
+        "status" : "Y",
+        "note" : "HR User",
+        "userName":"HR admin",
+        "middleName":"HR admin"
+    }
+
+    
+]

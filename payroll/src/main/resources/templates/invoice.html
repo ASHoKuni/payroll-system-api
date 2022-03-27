@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+
+    <!-- Main content -->
+    <section class="content">       
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12">
+
+                <h4>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h1> Hartle Labs Pvt. Ltd.  </h1>
+                                </div>
+                                <div class="col-md-6">
+                                
+                                    <img src="" alt="blank_profile_picture" class="img-responsive img-thumbnail"/>
+                                </div>
+                               
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div> <span class="fw-bolder">Name of Employee :</span> <small class="ms-3" th:text="${empFirstName}" > </small> </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div> <span class="fw-bolder">Number of day in Month :</span> <small class="ms-3">30</small> </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div> <span class="fw-bolder">Employee code :</span> <small class="ms-3" th:text = "${employeeId}"></small> </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div> <span class="fw-bolder">No of days worked :</span> <small class="ms-3">22</small> </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                            
+                                <div class="col-md-6">
+                                    <div> <span class="fw-bolder">Month :</span> <small class="ms-3" th:text="${paymentMonth}"></small> </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div> <span class="fw-bolder">Date of joining_date :</span> <small class="ms-3"  th:text="${empJoingDate}" ></small> </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div> <span class="fw-bolder">Bank Account Number :</span> <small class="ms-3"th:text="${empBankAccountNumber}"></small> </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div> <span class="fw-bolder">Leave Balance :</span> <small class="ms-3">5</small> </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                               
+                                <div> <span class="fw-bolder">Designation :</span> <small class="ms-3" th:text="${empDesignation}" ></small> </div>           
+                                
+                                    <!-- <div> <span class="fw-bolder">Designation :</span> <small class="ms-3"></small> </div> -->
+                                </div>
+                                <div class="col-md-6">
+                                    <div> <span class="fw-bolder">PF UAN Number :</span> <small class="ms-3" th:text="${empPFUANno}"></small> </div>
+                                </div>
+                            </div>
+                            <br/>
+                            <br/>
+                        </div>
+                        <br/>
+                        <table class="mt-4 table table-bordered">
+                            <thead class="bg-dark text-white">
+                                <tr>
+                                    <th scope="col">Particulars</th>
+                                    <th scope="col">Amount(Rs)</th>
+                                    <th scope="col">Deductions</th>
+                                    <th scope="col">Amount(Rs)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr>
+                                    <th scope="row">Basic Salary</th>
+                                    <td th:text="${basicSalary}"></td>
+                                    <td>Employee Provident Fund</td>
+                                    <td th:text="${employeeProvidentFund}"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">HRA</th>
+                                    <td th:text="${houseRentAllowance}"></td>
+                                    <td>Employer Provident Fund</td>
+                                    <td th:text="${employerProvidentFund}"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Fix Conveyance</th>
+                                    <td th:text="${fixConveyance}" ></td>
+                                    <td>T D S</td>
+                                    <td th:text="${tds}"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Medical Allowance</th>
+                                    <td th:text="${medicalAllowance}"></td>
+                                    <td>Professional Tax</td>
+                                    <td >0.00</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Internet Allowance</th>
+                                    <td th:text="${internetAllowance}"></td>
+                                    <td>Other Allowance</td>
+                                    <td th:text="${otherAllowance}"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Telephone</th>
+                                    <td th:text="${telephoneAllowance}"></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Prof Development</th>
+                                    <td th:text="${profDevelopment}"></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Special Allowance</th>
+                                    <td th:text="${specialAllowance}"></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <!-- <tr>
+                                    <th scope="row">Leave Encashment</th>
+                                    <td>0.00</td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Holiday Wages</th>
+                                    <td>500.00</td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Special Allowance</th>
+                                    <td>100.00</td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Bonus</th>
+                                    <td>1400.00</td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Individual Incentive</th>
+                                    <td>2400.00</td>
+                                    <td colspan="2"></td>
+                                </tr> -->
+                                <tr class="border-top">
+                                    <th scope="row">Gross Salary</th>
+                                    <td th:text="${grossSalary}"></td>
+                                    <td>Total Deductions</td>
+                                    <td th:text="${totaldeductions}"></td>
+                                </tr>
+                                <tr class="border-top">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td><span class="border-top">Net take-home Pay : </span></td>
+                                    <td th:text="${netTakeHomePay}"></td>
+                                </tr>
+                               
+                            </tbody>
+                        </table>
+                    </div>
+                </h4>
+                    <div class="row">
+                        <!-- <div class="col-md-4"> <br> <span class="fw-bold">Net Pay : 24528.00</span> </div> -->
+                        <!-- <div class="border col-md-8">
+                            <div class="d-flex flex-column"> <span>In Words</span> <span>Twenty Five thousand nine hundred seventy only</span> </div>
+                        </div> -->
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <div class="d-flex flex-column mt-2"> <span class="border-top">For Hartle Lab</span>  </div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div class="d-flex justify-content-end">
+                        <div class="d-flex flex-column mt-2"> <span class="border-top">HR Department</span> </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /.box -->
+    </section>
+    <!-- /.content -->
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+    {
+        "_class": "com.payroll.employee.dto.Employee",     
+        "id" : 1,
+        "empFirstName" : "Ashok" ,
+        "empMiddleName" : "G",
+        "empLastName" : "Dhokare",
+        "empMontherName":"S",
+        "empEmail" :"ashokdhokare@gmail.com",
+        "empContactNo1" : "1234567891",
+        "empCountryCode1" :"+91",
+        "empContactNo2" : "1234567891",
+        "empCountryCode2" :  "+91",
+        "empGender" : "Male",
+        "empJoingDate" : "01-03-2022",
+        "empPresentAddress" : "Pune",
+        "empPermentAddress" : "Kolhapur",
+        "empIdName" : "Aadhaar",
+        "empIdnumber" : "123-234-2345",
+        "empDesignation" : "Software deveployer",
+        "empDepartment" : "IT",
+        "empMaritalStatus" : "Singal",
+        "empDateofBirth" : "01-01-2021",
+        "empPFUANno" : "EHK2345Q23",
+        "empBankAccountNumber" : "123456787345"
+    }
+    
+
+    
+]

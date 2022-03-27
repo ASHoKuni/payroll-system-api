@@ -1,0 +1,11 @@
+[
+    {
+        "_class": "com.payroll.increments.dto.Increment",
+        "id" : 1,
+        "empId" : "1",
+        "incrementAmount" : "1500.00",
+        "incrPurpose":"good performance",
+        "date" : "01-03-2022"
+        
+    }
+  ]

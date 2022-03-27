@@ -1,0 +1,18 @@
+[
+    {
+      "_class": "com.payroll.department.dto.Department",
+      "id" : 1,
+      "departmentName": "IT",
+      "departmentDesc":"Information Technology",
+      "departmentStatus":"Active"
+
+    },
+    {
+        "_class": "com.payroll.department.dto.Department",
+        "id" : 2,
+        "departmentName": "HR",
+        "departmentDesc":"HR",
+        "departmentStatus":"Active"
+  
+      }
+  ]

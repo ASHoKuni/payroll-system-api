@@ -1,0 +1,20 @@
+[
+    {
+      "_class": "com.payroll.designations.dto.Designation",
+      "id" : 1,
+      "designationName": "UI-developer",
+      "designationDesc":"Information Technology",
+      "designationStatus":"Active",
+      "departmentId":"1"
+
+    },
+    {
+        "_class": "com.payroll.designations.dto.Designation",
+        "id" : 2,
+        "designationName": "software developer",
+        "designationDesc":"Information Technology",
+        "designationStatus":"Active",
+        "departmentId":"2"
+  
+      }
+  ]

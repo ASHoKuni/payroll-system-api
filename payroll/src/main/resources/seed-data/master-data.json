@@ -1,0 +1,15 @@
+[
+    {
+      "_class": "com.payroll.master.dto.Master",
+      "id": 1,
+      "salutation": ["Mr.", "Mrs.", "Ms.","Miss", "Dr."],
+      "gender": ["Male", "Female","Transgender"],
+      "maritalStatus": ["Single","Married","Widowed/Separated"],
+      "typeOfLeave": ["Sick","Casual","Annual","Maternity","Paternity"],
+      "leaveCategory": ["Full Day","Half Day"],
+      "employmentType": ["Permanent","Trainee"],
+      "unit_Of_Measure": ["Dollar", "Year","Hour","Month"],
+      "status": ["Active", "Inactive"],
+      "paymentType":["Bank Payment","Cash Payment","Chaque payment"]
+     }
+  ]

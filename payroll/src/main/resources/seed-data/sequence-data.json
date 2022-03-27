@@ -1,0 +1,11 @@
+[
+    { "_class": "com.payroll.login.dto.Sequence", "_id" : "60c09986305596ff9eb3163f", "modelname" : "user", "seq" : 100},
+    { "_class": "com.payroll.login.dto.Sequence", "_id" : "60c09986305596ff9eb3163f", "modelname" : "role", "seq" : 100},
+    { "_class": "com.payroll.login.dto.Sequence", "_id" : "60c09986305596ff9eb3163f", "modelname" : "employee", "seq" : 100},
+    { "_class": "com.payroll.login.dto.Sequence", "_id" : "60c09986305596ff9eb3163f", "modelname" : "department", "seq" : 100},
+    { "_class": "com.payroll.login.dto.Sequence", "_id" : "60c09986305596ff9eb3163f", "modelname" : "designation", "seq" : 100},
+    { "_class": "com.payroll.login.dto.Sequence", "_id" : "60c09986305596ff9eb3163f", "modelname" : "payrolls", "seq" : 100},
+    { "_class": "com.payroll.login.dto.Sequence", "_id" : "60c09986305596ff9eb3163f", "modelname" : "increment", "seq" : 100},
+    { "_class": "com.payroll.login.dto.Sequence", "_id" : "60c09986305596ff9eb3163f", "modelname" : "workingday", "seq" : 100},
+    { "_class": "com.payroll.login.dto.Sequence", "_id" : "60c09986305596ff9eb3163f", "modelname" : "payments", "seq" : 100}
+]

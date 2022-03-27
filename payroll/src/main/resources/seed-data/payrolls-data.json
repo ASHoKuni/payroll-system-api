@@ -1,0 +1,27 @@
+[
+    {
+        "_class": "com.payroll.payrolls.dto.Payrolls",
+        "id" : 1,
+        "employeeId" : "1",
+        "employeeType" : "Permanent",
+        "basicSalary" :  "45000.00",
+        "houseRentAllowance" :  "4000.00",
+        "fixConveyance" :  "0.00",
+        "medicalAllowance" :  "1200.00",
+        "internetAllowance" :  "0.00",
+        "specialAllowance" :  "785",
+        "profDevelopment" :  "0.00",
+        "telephoneAllowance" :  "0.00",
+        "otherAllowance" :  "100.00",
+        "taxDeduction" :  "1000.00",
+        "otherDeduction" :  "200.00",
+        "tds" :  "",
+        "employerProvidentFund" :  "1200.00",
+        "employeeProvidentFund" :  "1200.00",
+        "grossSalary" :  "50000.00",
+        "totaldeductions" :  "2500.00",
+        "netTakeHomePay" :  "", 
+        "activationStatus" :  "active"
+
+    }
+  ]

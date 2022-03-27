@@ -1,0 +1,38 @@
+
+1) install mongodb
+
+2) create  data path
+	run below query
+	mongod.exe --dbpath="<datapathlocation>" -f "<config file location>"
+	in mongod.conf file add 
+	auth=true
+	mongod.exe --dbpath="E:\bmore\payroll\data\db" -f "E:\mongodb-win32-x86_64-windows-4.4.9\bin\mongod.conf"
+
+
+step 1)
+
+Connect using mongo and create admin user
+
+>use admin
+
+db.createUser({
+    user: "payrolladmin",
+    pwd: "Payroll123$",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+}) 
+
+
+disconnect, stop mongodb and add auth = true in mongod.conf file
+start mongodb, connect to mongo using admin and create user and db for app
+
+step 2) login as admin user 
+
+
+mongo -u payrolladmin -p –authenticationDatabase admin
+
+use payroll
+db.createUser({
+    user: "payrolluser",
+    pwd: "Payroll123$",
+    roles: [ { role: "readWrite", db: "payroll" } ]
+})   

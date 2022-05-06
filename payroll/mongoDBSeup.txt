@@ -1,13 +1,21 @@
 
-1) install mongodb
-
+1) install mongodb zio file
+    a) download zip file:-  https://www.mongodb.com/try/download/community
+    b) exteact zip file
+  
+  
 2) create  data path
-	run below query
+	-- datapathlocation  <"E:\bmore\payroll\data\db">
+	-- config file location <"E:\mongodb-win32-x86_64-windows-4.4.9\bin\mongod.conf">
+	-- Create mongod.conf file in mongodb-win32-x86_64-windows-4.4.9\bin
+	--  add  auth=true in mongod.conf  file.
+	
+	E:\mongodb-win32-x86_64-windows-4.4.9\bin > 
 	mongod.exe --dbpath="<datapathlocation>" -f "<config file location>"
-	in mongod.conf file add 
-	auth=true
+	
 	mongod.exe --dbpath="E:\bmore\payroll\data\db" -f "E:\mongodb-win32-x86_64-windows-4.4.9\bin\mongod.conf"
-
+	
+        run above command in cmd.
 
 step 1)
 
